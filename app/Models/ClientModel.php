@@ -14,11 +14,11 @@ class ClientModel extends Model{
     protected $createdField='create_at';
     protected $updatedField='update_at';
 
-    protected $validationRules=[ // pending validate ??
-        'name'=> 'required|alpha_space|min_length[3]|max_lenght[75]',
-        'lastName'=> 'required|alpha_space|min_length[3]|max_lenght[75]',
-        'telephone'=> 'required|numeric|min_length[8]|max_lenght[8]',
-        'email'=> 'permit_empty|valid_email|min_length[3]|max_lenght[85]'
+    protected $validationRules=[ 
+        'name'=> 'required|alpha_space|min_length[3]|max_length[75]',
+        'lastName'=> 'required|alpha_space|min_length[3]|max_length[75]',
+        'telephone'=> 'required|numeric|min_length[8]|max_length[8]',
+        'email'=> 'permit_empty|valid_email|min_length[3]|max_length[85]'
     ];
 
     protected $validationMessages=[ // pending validate ??

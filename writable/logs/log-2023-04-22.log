@@ -1,0 +1,15 @@
+ERROR - 2023-04-22 23:16:59 --> mysqli_sql_exception: Unknown column 'create_at' in 'field list' in C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `cl...', 0)
+#1 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `cl...')
+#2 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `cl...')
+#3 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `cl...', Array, false)
+#4 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\app\Controllers\API\ClientController.php(24): CodeIgniter\Model->insert(Object(stdClass))
+#8 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(934): App\Controllers\API\ClientController->create()
+#9 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\ClientController))
+#10 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
