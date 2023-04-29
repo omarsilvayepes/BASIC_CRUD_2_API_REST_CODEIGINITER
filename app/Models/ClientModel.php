@@ -10,7 +10,7 @@ class ClientModel extends Model{
     protected $returnType='array';
     protected $allowedFields=['name','lastName','telephone','email'];
 
-    protected $useTimestamps=true; // pending validate ??
+    protected $useTimestamps=true; // When new register it created or update automatically change th dates in DB.
     protected $createdField='create_at';
     protected $updatedField='update_at';
 
@@ -21,7 +21,7 @@ class ClientModel extends Model{
         'email'=> 'permit_empty|valid_email|min_length[3]|max_length[85]'
     ];
 
-    protected $validationMessages=[ // pending validate ??
+    protected $validationMessages=[ 
         'email' =>[
             'valid_email'=> 'Dear user,you should type an valid email!...'
         ]
