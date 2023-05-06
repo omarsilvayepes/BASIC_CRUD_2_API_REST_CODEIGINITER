@@ -80,4 +80,29 @@ class ClientController extends ResourceController
             return $this->failServerError("An error has occurred",$ex);
         }
     }
+
+    public function deleteById($id=null)
+    {
+        try {
+            if(!$id){
+                return $this->failValidationErrors('Invalid Id');
+            }
+
+            $clientFetched=$this->model->find($id);
+
+            if(!$clientFetched){
+                return $this-> failNotFound('Client Not found with id: '.$id);
+            }
+
+            if($this->model->delete($id)){
+                return $this->respondDeleted($clientFetched,"Client Deleted Succesfully");
+            }
+            else{
+                return $this->failServerError('A server error has occurred');
+            }
+
+        } catch (\Throwable $ex) {
+            return $this->failServerError("An error has occurred",$ex);
+        }
+    }
 }

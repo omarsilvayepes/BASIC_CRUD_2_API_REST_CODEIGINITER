@@ -38,6 +38,7 @@ $routes->group('api',['namespace'=>'App\Controllers\API'],function($routes){
     $routes->get('client/getById/(:num)', 'ClientController::getById/$1');
     $routes->post('client/create', 'ClientController::create');
     $routes->put('client/update/(:num)', 'ClientController::update/$1');
+    $routes->delete('client/deleteById/(:num)', 'ClientController::deleteById/$1');
 });
     
 
