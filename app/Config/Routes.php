@@ -34,11 +34,19 @@ $routes->get('/', 'Home::index');
 // ADD HERE THE  NEW ROUTES!!....
 
 $routes->group('api',['namespace'=>'App\Controllers\API'],function($routes){
+    //----------------------Clients----------------------------------------
+
     $routes->get('clients', 'ClientController::index');
     $routes->get('client/getById/(:num)', 'ClientController::getById/$1');
     $routes->post('client/create', 'ClientController::create');
     $routes->put('client/update/(:num)', 'ClientController::update/$1');
     $routes->delete('client/deleteById/(:num)', 'ClientController::deleteById/$1');
+
+    //--------------------Account--------------------------------------------
+
+    $routes->get('accounts', 'AccountController::index');
+    $routes->post('account/create', 'AccountController::create');
+
 });
     
 

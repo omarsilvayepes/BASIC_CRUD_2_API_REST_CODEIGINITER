@@ -25,6 +25,8 @@ class Validation extends BaseConfig
         FormatRules::class,
         FileRules::class,
         CreditCardRules::class,
+        \App\Models\CustomRulesValidation\MyCustomRules::class // add custom rules to codeIgniter
+
     ];
 
     /**
