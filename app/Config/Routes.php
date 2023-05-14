@@ -47,6 +47,12 @@ $routes->group('api',['namespace'=>'App\Controllers\API'],function($routes){
     $routes->get('accounts', 'AccountController::index');
     $routes->post('account/create', 'AccountController::create');
 
+    //--------------------Transactions--------------------------------------------
+
+    $routes->get('transactions', 'TransactionController::index');
+    $routes->post('transaction/create', 'TransactionController::create');
+    $routes->get('transaction/getByClientId/(:num)', 'TransactionController::getTransactionByClientId/$1');
+
 });
     
 

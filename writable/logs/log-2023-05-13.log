@@ -1,0 +1,41 @@
+ERROR - 2023-05-13 22:04:25 --> mysqli_sql_exception: Unknown column 'create_at' in 'field list' in C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\MySQLi\Connection.php(295): mysqli->query('INSERT INTO `tr...', 0)
+#1 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('INSERT INTO `tr...')
+#2 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('INSERT INTO `tr...')
+#3 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseBuilder.php(2309): CodeIgniter\Database\BaseConnection->query('INSERT INTO `tr...', Array, false)
+#4 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Model.php(330): CodeIgniter\Database\BaseBuilder->insert()
+#5 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\BaseModel.php(782): CodeIgniter\Model->doInsert(Array)
+#6 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Model.php(730): CodeIgniter\BaseModel->insert(Array, true)
+#7 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\app\Controllers\API\TransactionController.php(28): CodeIgniter\Model->insert(Object(stdClass))
+#8 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(934): App\Controllers\API\TransactionController->create()
+#9 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\TransactionController))
+#10 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#11 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#12 {main}
+ERROR - 2023-05-13 23:34:12 --> mysqli_sql_exception: Unknown column 'accounts.client_id' in 'on clause' in C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\app\Models\TransactionModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\app\Controllers\API\TransactionController.php(84): App\Models\TransactionModel->transactionByClientQuery('1')
+#6 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(934): App\Controllers\API\TransactionController->getTransactionByClientId('1')
+#7 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\TransactionController))
+#8 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2023-05-13 23:40:09 --> mysqli_sql_exception: Unknown column 'accounts.client_id' in 'on clause' in C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\MySQLi\Connection.php:295
+Stack trace:
+#0 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\MySQLi\Connection.php(295): mysqli->query('SELECT *\nFROM `...', 0)
+#1 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseConnection.php(691): CodeIgniter\Database\MySQLi\Connection->execute('SELECT *\nFROM `...')
+#2 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseConnection.php(605): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT *\nFROM `...')
+#3 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\Database\BaseBuilder.php(1616): CodeIgniter\Database\BaseConnection->query('SELECT *\nFROM `...', Array, false)
+#4 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\app\Models\TransactionModel.php(39): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\app\Controllers\API\TransactionController.php(84): App\Models\TransactionModel->transactionByClientQuery('1')
+#6 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(934): App\Controllers\API\TransactionController->getTransactionByClientId('1')
+#7 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(499): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\API\TransactionController))
+#8 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\system\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\BASIC_CRUD_2_API_REST_CODEIGNITER\public\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
