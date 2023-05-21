@@ -32,7 +32,8 @@ class TransactionModel extends Model{
         //Join Table 1)transaction->2)accounts->3)clients : the order Join it's important
 
         $builder=$this->db->table($this->table);// table transaction
-        $builder->select('*');
+        //$builder->select('*'); // return al fields
+        $builder->select('accounts.id AS accountNumber,clients.name ,clients.email,transactions.amount');
         $builder->join('accounts','accounts.id=transactions.account_id');
         $builder->join('clients','clients.id=accounts.client_id');
         $builder->where('clients.id',$clientId);
@@ -40,7 +41,7 @@ class TransactionModel extends Model{
         $query=$builder->get();
         return $query->getResult();
 
-        //HERE: Go for As,allies, and have  pending status transaction???
+        //HERE: pending status transaction???
 
     }
 

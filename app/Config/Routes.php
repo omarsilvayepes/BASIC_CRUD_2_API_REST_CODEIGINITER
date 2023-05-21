@@ -33,7 +33,11 @@ $routes->get('/', 'Home::index');
 
 // ADD HERE THE  NEW ROUTES!!....
 
+$routes->post('auth/login', 'AuthController::login');
+
+
 $routes->group('api',['namespace'=>'App\Controllers\API'],function($routes){
+    
     //----------------------Clients----------------------------------------
 
     $routes->get('clients', 'ClientController::index');
