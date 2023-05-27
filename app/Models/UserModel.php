@@ -16,8 +16,8 @@ class UserModel extends Model{
 
     protected $validationRules=[ 
         'name'=> 'required|alpha_space|min_length[3]|max_length[65]',
-        'username'=> 'required|alpha_space|min_length[5]|max_length[10]',
-        'password'=> 'required|alpha_space|min_length[8]|max_length[65]',
+        'username'=> 'required|alpha_numeric|min_length[5]|max_length[10]',
+        'password'=> 'required|min_length[8]|max_length[65]',
         'rol_id'=> 'required|integer'
     ];
 

@@ -4,30 +4,55 @@ namespace App\Controllers;
 
 use App\Models\UserModel;
 use CodeIgniter\API\ResponseTrait;
+use Config\Services;
+use Firebase\JWT\JWT;
 
 class AuthController extends BaseController
 {
     use ResponseTrait;
+    private $userModel;
 
     public function __construct() {
         helper('secure_password');
+        $this->userModel=new UserModel();
     }
 
-    //HERE: 1)create Register User method using  hash_password function of  the helper
-    //2)delete user DB
-    //3 test register and the longin mehtod 
-    //4)continue in minute 14:30 video 10, remaining [1:30,2:38]min ->composer for JWT
 
-    public function login()
+    public function Register(){
+        try {
+            $userRequest=$this->request->getJSON();
+            $username=$userRequest->username;
+            $password=$userRequest->password;
+
+            $FetchedUser=$this->userModel->where('username',$username)->first();
+
+            if($FetchedUser){
+                return $this->failResourceExists('User it is already registered');
+            }
+
+            $userRequest->password=hashPassword($password);
+
+            if($this->userModel->insert($userRequest)){
+                $userRequest->id=$this->userModel->insertID();
+                return $this->respondCreated($userRequest);
+            }
+
+            return $this->failValidationErrors($this->userModel->validation->listErrors());
+
+        } catch (\Throwable $ex) {
+            return $this->failServerError("An Server Error has occurred",$ex);
+        }
+    }
+
+    public function Login()
     {
         try 
         {
-            $userModel=new UserModel();
 
             $username=$this->request->getPost('username'); // get data from :body :form-data
             $password=$this->request->getPost('password');
 
-            $FetchedUser=$userModel->where('username',$username)->first();
+            $FetchedUser=$this->userModel->where('username',$username)->first();
 
             if(!$FetchedUser){
                 return $this->failNotFound('User Not Found');
@@ -37,10 +62,25 @@ class AuthController extends BaseController
                 return $this->failValidationErrors('Password Wrong');
             }
 
-            return $this->respond('User Found Succesfully');
+            $jwt=$this->generateJWT();
+            return $this->respond(['TOKEN'=>$jwt],201);
 
         } catch (\Throwable $ex) {
             return $this->failServerError("An Server Error has occurred",$ex);
         }
+    }
+
+    protected function generateJWT()
+    {
+        $key=Services::getSecretKey();
+        $time=time();
+        $payload=[
+            'aud'=> base_url(),
+            'iat'=> $time,
+            'exp'=> $time +60 // expire time
+        ];
+
+        $jwt=JWT::encode($payload,$key,'HS256');
+        return $jwt;
     }
 }

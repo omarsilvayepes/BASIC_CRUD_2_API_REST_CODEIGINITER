@@ -33,7 +33,8 @@ $routes->get('/', 'Home::index');
 
 // ADD HERE THE  NEW ROUTES!!....
 
-$routes->post('auth/login', 'AuthController::login');
+$routes->post('auth/login', 'AuthController::Login');
+$routes->post('auth/register', 'AuthController::Register');
 
 
 $routes->group('api',['namespace'=>'App\Controllers\API'],function($routes){

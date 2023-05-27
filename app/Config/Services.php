@@ -20,7 +20,7 @@ use CodeIgniter\Config\BaseService;
 class Services extends BaseService
 {
 
-    public function getSecretKey()
+    public static function getSecretKey()
     {
         return 'My_Key_Secret_Test';
     }
