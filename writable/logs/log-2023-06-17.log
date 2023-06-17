@@ -1,0 +1,237 @@
+CRITICAL - 2023-06-17 21:33:59 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/clients', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:34:50 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:35:16 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:35:18 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:35:19 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:36:46 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/accounts', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:39:43 --> "authFilter" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:50:23 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:38 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:41 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:42 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:44 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:51:44 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:52:48 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:53:38 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:53:52 --> "authFilter" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:53:55 --> "authFilter" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:53:58 --> "authFilter" filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 340.
+ 1 SYSTEMPATH\Filters\Filters.php(340): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('authFilter')
+ 2 SYSTEMPATH\CodeIgniter.php(466): CodeIgniter\Filters\Filters->enableFilter('authFilter', 'before')
+ 3 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:55:54 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 21:55:56 --> Class "App\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:01:37 --> Class "app\Filters\AuthFilter" not found
+in SYSTEMPATH\Filters\Filters.php on line 166.
+ 1 SYSTEMPATH\CodeIgniter.php(473): CodeIgniter\Filters\Filters->run('api/transactions', 'before')
+ 2 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 3 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:34:17 --> Header may not contain more than a single header, new line detected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Header may not contain more than a single header, new line detected', 'C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\HTTP\\ResponseTrait.php', 474)
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(474): header('HTTP/1.1 500 UnexpectedValueException: "kid" empty, unable to lookup correct key in C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php:443
+Stack trace:
+#0 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php(133): Firebase\\JWT\\JWT::getKey(\'My_Key_Secret_T...\', NULL)
+#1 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\app\\Filters\\AuthFilter.php(31): Firebase\\JWT\\JWT::decode(\'eyJ0eXAiOiJKV1Q...\', \'My_Key_Secret_T...\', Array)
+#2 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\Filters\\Filters.php(173): App\\Filters\\AuthFilter->before(Object(CodeIgniter\\HTTP\\IncomingRequest), NULL)
+#3 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(473): CodeIgniter\\Filters\\Filters->run(\'api/clients\', \'before\')
+#4 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(368): CodeIgniter\\CodeIgniter->handleRequest(NULL, Object(Config\\Cache), false)
+#5 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\public\\index.php(67): CodeIgniter\\CodeIgniter->run()
+#6 {main}', true, 500)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+ 4 SYSTEMPATH\CodeIgniter.php(478): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:34:28 --> Header may not contain more than a single header, new line detected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Header may not contain more than a single header, new line detected', 'C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\HTTP\\ResponseTrait.php', 474)
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(474): header('HTTP/1.1 500 UnexpectedValueException: "kid" empty, unable to lookup correct key in C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php:443
+Stack trace:
+#0 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php(133): Firebase\\JWT\\JWT::getKey(\'My_Key_Secret_T...\', NULL)
+#1 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\app\\Filters\\AuthFilter.php(31): Firebase\\JWT\\JWT::decode(\'eyJ0eXAiOiJKV1Q...\', \'My_Key_Secret_T...\', Array)
+#2 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\Filters\\Filters.php(173): App\\Filters\\AuthFilter->before(Object(CodeIgniter\\HTTP\\IncomingRequest), NULL)
+#3 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(473): CodeIgniter\\Filters\\Filters->run(\'api/clients\', \'before\')
+#4 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(368): CodeIgniter\\CodeIgniter->handleRequest(NULL, Object(Config\\Cache), false)
+#5 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\public\\index.php(67): CodeIgniter\\CodeIgniter->run()
+#6 {main}', true, 500)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+ 4 SYSTEMPATH\CodeIgniter.php(478): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:34:32 --> Header may not contain more than a single header, new line detected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Header may not contain more than a single header, new line detected', 'C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\HTTP\\ResponseTrait.php', 474)
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(474): header('HTTP/1.1 500 UnexpectedValueException: "kid" empty, unable to lookup correct key in C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php:443
+Stack trace:
+#0 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php(133): Firebase\\JWT\\JWT::getKey(\'My_Key_Secret_T...\', NULL)
+#1 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\app\\Filters\\AuthFilter.php(31): Firebase\\JWT\\JWT::decode(\'eyJ0eXAiOiJKV1Q...\', \'My_Key_Secret_T...\', Array)
+#2 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\Filters\\Filters.php(173): App\\Filters\\AuthFilter->before(Object(CodeIgniter\\HTTP\\IncomingRequest), NULL)
+#3 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(473): CodeIgniter\\Filters\\Filters->run(\'api/clients\', \'before\')
+#4 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(368): CodeIgniter\\CodeIgniter->handleRequest(NULL, Object(Config\\Cache), false)
+#5 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\public\\index.php(67): CodeIgniter\\CodeIgniter->run()
+#6 {main}', true, 500)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+ 4 SYSTEMPATH\CodeIgniter.php(478): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:34:33 --> Header may not contain more than a single header, new line detected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Header may not contain more than a single header, new line detected', 'C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\HTTP\\ResponseTrait.php', 474)
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(474): header('HTTP/1.1 500 UnexpectedValueException: "kid" empty, unable to lookup correct key in C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php:443
+Stack trace:
+#0 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php(133): Firebase\\JWT\\JWT::getKey(\'My_Key_Secret_T...\', NULL)
+#1 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\app\\Filters\\AuthFilter.php(31): Firebase\\JWT\\JWT::decode(\'eyJ0eXAiOiJKV1Q...\', \'My_Key_Secret_T...\', Array)
+#2 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\Filters\\Filters.php(173): App\\Filters\\AuthFilter->before(Object(CodeIgniter\\HTTP\\IncomingRequest), NULL)
+#3 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(473): CodeIgniter\\Filters\\Filters->run(\'api/clients\', \'before\')
+#4 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(368): CodeIgniter\\CodeIgniter->handleRequest(NULL, Object(Config\\Cache), false)
+#5 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\public\\index.php(67): CodeIgniter\\CodeIgniter->run()
+#6 {main}', true, 500)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+ 4 SYSTEMPATH\CodeIgniter.php(478): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:34:53 --> Header may not contain more than a single header, new line detected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Header may not contain more than a single header, new line detected', 'C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\HTTP\\ResponseTrait.php', 474)
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(474): header('HTTP/1.1 500 UnexpectedValueException: "kid" empty, unable to lookup correct key in C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php:443
+Stack trace:
+#0 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php(133): Firebase\\JWT\\JWT::getKey(\'My_Key_Secret_T...\', NULL)
+#1 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\app\\Filters\\AuthFilter.php(31): Firebase\\JWT\\JWT::decode(\'eyJ0eXAiOiJKV1Q...\', \'My_Key_Secret_T...\', Array)
+#2 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\Filters\\Filters.php(173): App\\Filters\\AuthFilter->before(Object(CodeIgniter\\HTTP\\IncomingRequest), NULL)
+#3 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(473): CodeIgniter\\Filters\\Filters->run(\'api/clients\', \'before\')
+#4 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(368): CodeIgniter\\CodeIgniter->handleRequest(NULL, Object(Config\\Cache), false)
+#5 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\public\\index.php(67): CodeIgniter\\CodeIgniter->run()
+#6 {main}', true, 500)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+ 4 SYSTEMPATH\CodeIgniter.php(478): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:34:54 --> Header may not contain more than a single header, new line detected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Header may not contain more than a single header, new line detected', 'C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\HTTP\\ResponseTrait.php', 474)
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(474): header('HTTP/1.1 500 UnexpectedValueException: "kid" empty, unable to lookup correct key in C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php:443
+Stack trace:
+#0 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php(133): Firebase\\JWT\\JWT::getKey(\'My_Key_Secret_T...\', NULL)
+#1 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\app\\Filters\\AuthFilter.php(31): Firebase\\JWT\\JWT::decode(\'eyJ0eXAiOiJKV1Q...\', \'My_Key_Secret_T...\', Array)
+#2 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\Filters\\Filters.php(173): App\\Filters\\AuthFilter->before(Object(CodeIgniter\\HTTP\\IncomingRequest), NULL)
+#3 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(473): CodeIgniter\\Filters\\Filters->run(\'api/clients\', \'before\')
+#4 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(368): CodeIgniter\\CodeIgniter->handleRequest(NULL, Object(Config\\Cache), false)
+#5 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\public\\index.php(67): CodeIgniter\\CodeIgniter->run()
+#6 {main}', true, 500)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+ 4 SYSTEMPATH\CodeIgniter.php(478): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:34:55 --> Header may not contain more than a single header, new line detected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Header may not contain more than a single header, new line detected', 'C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\HTTP\\ResponseTrait.php', 474)
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(474): header('HTTP/1.1 500 UnexpectedValueException: "kid" empty, unable to lookup correct key in C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php:443
+Stack trace:
+#0 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php(133): Firebase\\JWT\\JWT::getKey(\'My_Key_Secret_T...\', NULL)
+#1 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\app\\Filters\\AuthFilter.php(31): Firebase\\JWT\\JWT::decode(\'eyJ0eXAiOiJKV1Q...\', \'My_Key_Secret_T...\', Array)
+#2 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\Filters\\Filters.php(173): App\\Filters\\AuthFilter->before(Object(CodeIgniter\\HTTP\\IncomingRequest), NULL)
+#3 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(473): CodeIgniter\\Filters\\Filters->run(\'api/clients\', \'before\')
+#4 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(368): CodeIgniter\\CodeIgniter->handleRequest(NULL, Object(Config\\Cache), false)
+#5 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\public\\index.php(67): CodeIgniter\\CodeIgniter->run()
+#6 {main}', true, 500)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+ 4 SYSTEMPATH\CodeIgniter.php(478): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2023-06-17 22:34:56 --> Header may not contain more than a single header, new line detected
+in SYSTEMPATH\HTTP\ResponseTrait.php on line 474.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'Header may not contain more than a single header, new line detected', 'C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\HTTP\\ResponseTrait.php', 474)
+ 2 SYSTEMPATH\HTTP\ResponseTrait.php(474): header('HTTP/1.1 500 UnexpectedValueException: "kid" empty, unable to lookup correct key in C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php:443
+Stack trace:
+#0 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\vendor\\firebase\\php-jwt\\src\\JWT.php(133): Firebase\\JWT\\JWT::getKey(\'My_Key_Secret_T...\', NULL)
+#1 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\app\\Filters\\AuthFilter.php(31): Firebase\\JWT\\JWT::decode(\'eyJ0eXAiOiJKV1Q...\', \'My_Key_Secret_T...\', Array)
+#2 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\Filters\\Filters.php(173): App\\Filters\\AuthFilter->before(Object(CodeIgniter\\HTTP\\IncomingRequest), NULL)
+#3 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(473): CodeIgniter\\Filters\\Filters->run(\'api/clients\', \'before\')
+#4 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\system\\CodeIgniter.php(368): CodeIgniter\\CodeIgniter->handleRequest(NULL, Object(Config\\Cache), false)
+#5 C:\\xampp\\htdocs\\BASIC_CRUD_2_API_REST_CODEIGNITER\\public\\index.php(67): CodeIgniter\\CodeIgniter->run()
+#6 {main}', true, 500)
+ 3 SYSTEMPATH\HTTP\ResponseTrait.php(448): CodeIgniter\HTTP\Response->sendHeaders()
+ 4 SYSTEMPATH\CodeIgniter.php(478): CodeIgniter\HTTP\Response->send()
+ 5 SYSTEMPATH\CodeIgniter.php(368): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

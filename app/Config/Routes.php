@@ -37,7 +37,7 @@ $routes->post('auth/login', 'AuthController::Login');
 $routes->post('auth/register', 'AuthController::Register');
 
 
-$routes->group('api',['namespace'=>'App\Controllers\API'],function($routes){
+$routes->group('api',['namespace'=>'App\Controllers\API','filter'=>'authFilter'],function($routes){
     
     //----------------------Clients----------------------------------------
 

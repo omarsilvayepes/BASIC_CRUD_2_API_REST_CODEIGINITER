@@ -62,7 +62,7 @@ class AuthController extends BaseController
                 return $this->failValidationErrors('Password Wrong');
             }
 
-            $jwt=$this->generateJWT();
+            $jwt=$this->generateJWT($FetchedUser);
             return $this->respond(['TOKEN'=>$jwt],201);
 
         } catch (\Throwable $ex) {
@@ -70,14 +70,19 @@ class AuthController extends BaseController
         }
     }
 
-    protected function generateJWT()
+    protected function generateJWT($FetchedUser)
     {
         $key=Services::getSecretKey();
         $time=time();
         $payload=[
             'aud'=> base_url(),
             'iat'=> $time,
-            'exp'=> $time +60 // expire time
+            'exp'=> $time +60, // expire time: 60 sec
+            'data' => [
+                'name'=>$FetchedUser['name'],
+                'username'=>$FetchedUser['username'],
+                'rol_id'=>$FetchedUser['rol_id']
+            ]
         ];
 
         $jwt=JWT::encode($payload,$key,'HS256');
