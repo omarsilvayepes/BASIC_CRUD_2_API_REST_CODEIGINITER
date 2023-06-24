@@ -2,6 +2,7 @@
 
 namespace App\Filters;
 
+use App\Models\RolModel;
 use CodeIgniter\Filters\FilterInterface;
 use CodeIgniter\HTTP\RequestInterface;
 use CodeIgniter\HTTP\ResponseInterface;
@@ -14,6 +15,11 @@ use Firebase\JWT\Key;
 class AuthFilter implements FilterInterface{
 
     use ResponseTrait;
+    private $rolModel;
+
+    public function __construct() {
+        $this->rolModel=new RolModel();
+    }
 
     public function before(RequestInterface $request, $arguments = null){
 
@@ -30,7 +36,13 @@ class AuthFilter implements FilterInterface{
             $array=explode(' ',$authHeader);
             $jwt=$array[1];
 
-            JWT::decode($jwt,new Key($key, 'HS256'));
+            $jwt=JWT::decode($jwt,new Key($key, 'HS256'));
+
+            $rolFetched=$this->rolModel->find($jwt->data->rol_id);
+
+            if(!$rolFetched){
+                return Services::response()->setStatusCode(ResponseInterface::HTTP_UNAUTHORIZED,'Invalid User Rol');
+            }
 
         } catch (ExpiredException $ex) {
             return Services::response()->setStatusCode(ResponseInterface::HTTP_UNAUTHORIZED,' Token JWT  expired',$ex);

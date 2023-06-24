@@ -10,11 +10,22 @@ class ClientController extends ResourceController
 
     public function __construct() {
         $this->model = $this->setModel(new ClientModel());
+        helper('access_rol_helper'); // helper for validate the user's roles
     }
 
     public function index(){
-        $clients=$this->model->findAll();
-        return $this->respond($clients);
+       // allow roles for this service get -client:admin or user 
+        try {
+            if(!isValidRol(array('admin','user'),$this->request->getServer('HTTP_AUTHORIZATION'))){
+                return $this->failServerError("The Current Rol does Not has access to this resource");
+            }
+    
+            $clients=$this->model->findAll();
+            return $this->respond($clients);
+
+        } catch (\Throwable $ex) {
+            return $this->failServerError("An error has occurred",$ex);
+        }
     }
 
     public function create()
